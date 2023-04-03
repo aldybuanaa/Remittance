@@ -1,0 +1,22 @@
+/* 
+  RecipientsInfoStep1.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 1: DETAIL BANK PENERIMA)
+"recipients_bank_details" = "Detail Bank Penerima";
+"recipients_bank_name" = "Nama Bank Penerima";
+"choose_bank" = "Pilih Bank";
+"account_number" = "Nomor Rekening";
+"enter_account_number" = "Masukkan Nomor Rekening";         // Placeholder
+"bank_account_owners_name" = "Nama Pemilik Rekening";
+"enter_bank_account_owners_name" = "Masukkan Nama Pemilik Rekening";   // Placeholder
+"please_make_sure" = "Pastikan nama pemilik rekening sudah sesuai dengan yang tertera pada buku rekening untuk menghindari keterlambatan waktu pengiriman.";
+
+
+// MARK: BOTTOM SHEET PASTIKAN DATA BANK PENERIMA BANK SUDAH BENAR
+"make_sure_the_recipient" = "Pastikan Data Bank Penerima Sudah Benar";
+"the_incorrect_data" = "Kesalahan data bank penerima dapat mengakibatkan keterlambatan waktu pengiriman uang atau transaksi gagal.";

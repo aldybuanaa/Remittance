@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU REMITTANCE (EWALLET/BANK ACCOUNT)
+"amount_of_transfer" = "Isi nominal uang yang di transfer";
+"amount_you_send" = "Uang yang dikirim";
+"receiving_money_method" = "Metode Penerimaan Uang";
+"cheapest_fee" = "Biaya Termurah";
+"fee" = "Biaya";
+"amount_well_convert" = "Total yang akan dikonversi";
+"current_rate" = "Kurs saat ini";
+"amount_received" = "Uang yang diterima";
+
+"recipients_ewallet_id" = "ID eWallet Penerima";     // eWallet
+"make_sure_the_ewallet" = "Pastikan ID eWallet adalah ID Alipay penerima yang sudah terverifikasi dan terhubung dengan rekening Bank. Kesalahan ID Alipay dapat menyebabkan kegagalan transaksi.";     // eWallet
+
+"information" = "Info";
+"total_amount" = "Total Bayar";
+"maximum_amount_transfer" = "Maks. transfer ";
+
+"ezeetunai_confirmed" = "ezeeTunai Terkonfirmasi: ";     // eWallet
+"ezeetunai_unregistered" = "Nomor belum terdaftar di ezeeTunai";     // eWallet
+"share_link_to" = "Bagikan link ke penerima, untuk mendaftar ezeeTunai";     // eWallet

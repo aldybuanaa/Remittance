@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: TITLE PAGE & BUTTON
+"title_remittance" = "Remittance";
+"title_recipients_info" = "Recipients Info";
+"title_data_confirmation" = "Data Confirmation";
+
+"button_language" = " (Language)";
+"button_next" = "NEXT";
+"button_bank_account_number" = "Bank Account";
+"button_ewallet" = "eWallet";

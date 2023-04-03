@@ -1,0 +1,37 @@
+/* 
+  RecipientsInfoStep3.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 3: DETAIL INFO TAMBAHAN)
+"additional_info_details" = "Additional Info Details";
+"source_of_funds" = "Source of funds";
+"choose_source_of" = "  Choose source of fund";   // Placeholder
+"purpose_of_sending_money" = "Purpose of sending money";
+"choose_purpose_of" = "  Choose Purpose of sending money";   // Placeholder
+
+"salary" = "Salary";   // Menu Drop down
+"business" = "Business";   // Menu Drop down
+"loans" = "Loans";   // Menu Drop down
+"sale_of_assets" = "Sale of assets";   // Menu Drop down
+"deposits" = "Deposits";   // Menu Drop down
+"donations" = "Donations";   // Menu Drop down
+"gifts" = "Gifts";   // Menu Drop down
+"investments" = "Investments";   // Menu Drop down
+"savings" = "Savings";   // Menu Drop down
+"payment of goods" = "Payment of goods & services";   // Menu Drop down
+"payment of salaries" = "Payment of salaries";   // Menu Drop down
+"insurance contributions" = "Insurance contributions";   // Menu Drop down
+"medical expenses" = "Medical/health expenses";   // Menu Drop down
+"educational expenses" = "Educational expenses";   // Menu Drop down
+"living expenses" = "Living expenses";   // Menu Drop down
+"family allowance" = "Family allowance";   // Menu Drop down
+"others" = "Others";   // Menu Drop down
+
+"supporting_document" = "Supporting document (e.g. Invoice)";
+"supporting_document_is" = "Supporting document is required because your transaction is more than 100.000 USD a month";
+"add_file" = "Add File";
+"change_file" = "Change File";

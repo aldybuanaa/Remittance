@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B77554329D6D5CF0022DC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77554229D6D5CF0022DC3E /* AppDelegate.swift */; };
+		8B77554529D6D5CF0022DC3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77554429D6D5CF0022DC3E /* SceneDelegate.swift */; };
+		8B77554C29D6D5D10022DC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B77554B29D6D5D10022DC3E /* Assets.xcassets */; };
+		8B77555A29D6D5D20022DC3E /* RemittanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77555929D6D5D20022DC3E /* RemittanceTests.swift */; };
+		8B77556429D6D5D20022DC3E /* RemittanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77556329D6D5D20022DC3E /* RemittanceUITests.swift */; };
+		8B77556629D6D5D20022DC3E /* RemittanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77556529D6D5D20022DC3E /* RemittanceUITestsLaunchTests.swift */; };
+		8B77557429D6D6510022DC3E /* BottomSheetController in Frameworks */ = {isa = PBXBuildFile; productRef = 8B77557329D6D6510022DC3E /* BottomSheetController */; };
+		8B77557729D6D6610022DC3E /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 8B77557629D6D6610022DC3E /* iOSDropDown */; };
+		8B7755D629DA641D0022DC3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755D829DA641D0022DC3E /* Localizable.strings */; };
+		8B7755DF29DA681A0022DC3E /* MainRemittance.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755E129DA681A0022DC3E /* MainRemittance.strings */; };
+		8B7755EB29DA68810022DC3E /* RecipientsInfoStep1.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755ED29DA68810022DC3E /* RecipientsInfoStep1.strings */; };
+		8B7755F029DA688C0022DC3E /* RecipientsInfoStep2.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755F229DA688C0022DC3E /* RecipientsInfoStep2.strings */; };
+		8B7755F529DA68930022DC3E /* RecipientsInfoStep3.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755F729DA68930022DC3E /* RecipientsInfoStep3.strings */; };
+		8B7755FC29DA68D30022DC3E /* DataConfirmationRemittance.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B7755FE29DA68D30022DC3E /* DataConfirmationRemittance.strings */; };
+		8B77560329DA6BB30022DC3E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77560129DA6BB30022DC3E /* MainMenuViewController.swift */; };
+		8B77560429DA6BB30022DC3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77560229DA6BB30022DC3E /* MainMenu.xib */; };
+		8B77560629DA6D2E0022DC3E /* CityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7755C929DA62A90022DC3E /* CityResponse.swift */; };
+		8B77560729DA6D310022DC3E /* BankResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7755CA29DA62A90022DC3E /* BankResponse.swift */; };
+		8B77560829DA6D370022DC3E /* BankRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7755CC29DA62A90022DC3E /* BankRequest.swift */; };
+		8B77560929DA6D390022DC3E /* CityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7755CD29DA62A90022DC3E /* CityRequest.swift */; };
+		8B77560C29DA6D9A0022DC3E /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B77560B29DA6D9A0022DC3E /* Localize_Swift */; };
+		8B77561829DA6EF50022DC3E /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77561529DA6EF40022DC3E /* DropDown.swift */; };
+		8B77561929DA6EF50022DC3E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77561629DA6EF50022DC3E /* UIButton.swift */; };
+		8B77561A29DA6EF50022DC3E /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77561729DA6EF50022DC3E /* UIVIew.swift */; };
+		8B77561D29DA6F610022DC3E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77561C29DA6F610022DC3E /* UIColor.swift */; };
+		8B77562429DA71070022DC3E /* MainRemittanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77562229DA71070022DC3E /* MainRemittanceViewController.swift */; };
+		8B77562529DA71070022DC3E /* MainRemittance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77562329DA71070022DC3E /* MainRemittance.xib */; };
+		8B77562E29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77562C29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib */; };
+		8B77562F29DA72840022DC3E /* BankAccountAdditionalInfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77562D29DA72840022DC3E /* BankAccountAdditionalInfoDetailViewController.swift */; };
+		8B77563329DA73280022DC3E /* BankAccountRecipientsBankInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77563129DA73280022DC3E /* BankAccountRecipientsBankInfoViewController.swift */; };
+		8B77563429DA73280022DC3E /* BankAccountRecipientsBankInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77563229DA73280022DC3E /* BankAccountRecipientsBankInfo.xib */; };
+		8B77563829DA738C0022DC3E /* MakeSureDataBank.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77563629DA738C0022DC3E /* MakeSureDataBank.xib */; };
+		8B77563929DA738C0022DC3E /* MakeSureDataBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77563729DA738C0022DC3E /* MakeSureDataBankViewController.swift */; };
+		8B77563D29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77563B29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib */; };
+		8B77563E29DA73D40022DC3E /* BankAccountRecipientsInfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77563C29DA73D40022DC3E /* BankAccountRecipientsInfoDetailViewController.swift */; };
+		8B77564529DA74740022DC3E /* EwalletRecipientsInfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77564329DA74740022DC3E /* EwalletRecipientsInfoDetailViewController.swift */; };
+		8B77564629DA74740022DC3E /* EwalletRecipientsInfoDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77564429DA74740022DC3E /* EwalletRecipientsInfoDetail.xib */; };
+		8B77564929DA748D0022DC3E /* EwalletAdditionalInfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77564729DA748D0022DC3E /* EwalletAdditionalInfoDetailViewController.swift */; };
+		8B77564A29DA748D0022DC3E /* EwalletAdditionalInfoDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77564829DA748D0022DC3E /* EwalletAdditionalInfoDetail.xib */; };
+		8B77564D29DA74AB0022DC3E /* BankAccountDataConfirmation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77564B29DA74AB0022DC3E /* BankAccountDataConfirmation.xib */; };
+		8B77564E29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77564C29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift */; };
+		8B77565129DA74BB0022DC3E /* EwalletDataConfirmation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77564F29DA74BB0022DC3E /* EwalletDataConfirmation.xib */; };
+		8B77565229DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77565029DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B77555629D6D5D20022DC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B77553729D6D5CE0022DC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B77553E29D6D5CF0022DC3E;
+			remoteInfo = Remittance;
+		};
+		8B77556029D6D5D20022DC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B77553729D6D5CE0022DC3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B77553E29D6D5CF0022DC3E;
+			remoteInfo = Remittance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B77553F29D6D5CF0022DC3E /* Remittance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remittance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B77554229D6D5CF0022DC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B77554429D6D5CF0022DC3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B77554B29D6D5D10022DC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B77555029D6D5D10022DC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B77555529D6D5D20022DC3E /* RemittanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemittanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B77555929D6D5D20022DC3E /* RemittanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemittanceTests.swift; sourceTree = "<group>"; };
+		8B77555F29D6D5D20022DC3E /* RemittanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemittanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B77556329D6D5D20022DC3E /* RemittanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemittanceUITests.swift; sourceTree = "<group>"; };
+		8B77556529D6D5D20022DC3E /* RemittanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemittanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B7755C929DA62A90022DC3E /* CityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResponse.swift; sourceTree = "<group>"; };
+		8B7755CA29DA62A90022DC3E /* BankResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankResponse.swift; sourceTree = "<group>"; };
+		8B7755CC29DA62A90022DC3E /* BankRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankRequest.swift; sourceTree = "<group>"; };
+		8B7755CD29DA62A90022DC3E /* CityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRequest.swift; sourceTree = "<group>"; };
+		8B7755D729DA641D0022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B7755D929DA641F0022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8B7755DA29DA64200022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B7755E029DA681A0022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainRemittance.strings; sourceTree = "<group>"; };
+		8B7755E229DA681D0022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainRemittance.strings"; sourceTree = "<group>"; };
+		8B7755E329DA681E0022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/MainRemittance.strings; sourceTree = "<group>"; };
+		8B7755EC29DA68810022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RecipientsInfoStep1.strings; sourceTree = "<group>"; };
+		8B7755EE29DA68860022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RecipientsInfoStep1.strings"; sourceTree = "<group>"; };
+		8B7755EF29DA68870022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/RecipientsInfoStep1.strings; sourceTree = "<group>"; };
+		8B7755F129DA688C0022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RecipientsInfoStep2.strings; sourceTree = "<group>"; };
+		8B7755F329DA688E0022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RecipientsInfoStep2.strings"; sourceTree = "<group>"; };
+		8B7755F429DA688E0022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/RecipientsInfoStep2.strings; sourceTree = "<group>"; };
+		8B7755F629DA68930022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RecipientsInfoStep3.strings; sourceTree = "<group>"; };
+		8B7755F829DA68960022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RecipientsInfoStep3.strings"; sourceTree = "<group>"; };
+		8B7755F929DA68970022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/RecipientsInfoStep3.strings; sourceTree = "<group>"; };
+		8B7755FD29DA68D30022DC3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DataConfirmationRemittance.strings; sourceTree = "<group>"; };
+		8B7755FF29DA68D60022DC3E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DataConfirmationRemittance.strings"; sourceTree = "<group>"; };
+		8B77560029DA68D70022DC3E /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/DataConfirmationRemittance.strings; sourceTree = "<group>"; };
+		8B77560129DA6BB30022DC3E /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		8B77560229DA6BB30022DC3E /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8B77561529DA6EF40022DC3E /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		8B77561629DA6EF50022DC3E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		8B77561729DA6EF50022DC3E /* UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
+		8B77561C29DA6F610022DC3E /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8B77562229DA71070022DC3E /* MainRemittanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRemittanceViewController.swift; sourceTree = "<group>"; };
+		8B77562329DA71070022DC3E /* MainRemittance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainRemittance.xib; sourceTree = "<group>"; };
+		8B77562C29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountAdditionalInfoDetail.xib; sourceTree = "<group>"; };
+		8B77562D29DA72840022DC3E /* BankAccountAdditionalInfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountAdditionalInfoDetailViewController.swift; sourceTree = "<group>"; };
+		8B77563129DA73280022DC3E /* BankAccountRecipientsBankInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountRecipientsBankInfoViewController.swift; sourceTree = "<group>"; };
+		8B77563229DA73280022DC3E /* BankAccountRecipientsBankInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountRecipientsBankInfo.xib; sourceTree = "<group>"; };
+		8B77563629DA738C0022DC3E /* MakeSureDataBank.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakeSureDataBank.xib; sourceTree = "<group>"; };
+		8B77563729DA738C0022DC3E /* MakeSureDataBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeSureDataBankViewController.swift; sourceTree = "<group>"; };
+		8B77563B29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountRecipientsInfoDetail.xib; sourceTree = "<group>"; };
+		8B77563C29DA73D40022DC3E /* BankAccountRecipientsInfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountRecipientsInfoDetailViewController.swift; sourceTree = "<group>"; };
+		8B77564329DA74740022DC3E /* EwalletRecipientsInfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwalletRecipientsInfoDetailViewController.swift; sourceTree = "<group>"; };
+		8B77564429DA74740022DC3E /* EwalletRecipientsInfoDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EwalletRecipientsInfoDetail.xib; sourceTree = "<group>"; };
+		8B77564729DA748D0022DC3E /* EwalletAdditionalInfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwalletAdditionalInfoDetailViewController.swift; sourceTree = "<group>"; };
+		8B77564829DA748D0022DC3E /* EwalletAdditionalInfoDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EwalletAdditionalInfoDetail.xib; sourceTree = "<group>"; };
+		8B77564B29DA74AB0022DC3E /* BankAccountDataConfirmation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountDataConfirmation.xib; sourceTree = "<group>"; };
+		8B77564C29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountDataConfirmationViewController.swift; sourceTree = "<group>"; };
+		8B77564F29DA74BB0022DC3E /* EwalletDataConfirmation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EwalletDataConfirmation.xib; sourceTree = "<group>"; };
+		8B77565029DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwalletDataConfirmationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B77553C29D6D5CF0022DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77560C29DA6D9A0022DC3E /* Localize_Swift in Frameworks */,
+				8B77557429D6D6510022DC3E /* BottomSheetController in Frameworks */,
+				8B77557729D6D6610022DC3E /* iOSDropDown in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555229D6D5D20022DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555C29D6D5D20022DC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B77553629D6D5CE0022DC3E = {
+			isa = PBXGroup;
+			children = (
+				8B77554129D6D5CF0022DC3E /* Remittance */,
+				8B77555829D6D5D20022DC3E /* RemittanceTests */,
+				8B77556229D6D5D20022DC3E /* RemittanceUITests */,
+				8B77554029D6D5CF0022DC3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B77554029D6D5CF0022DC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B77553F29D6D5CF0022DC3E /* Remittance.app */,
+				8B77555529D6D5D20022DC3E /* RemittanceTests.xctest */,
+				8B77555F29D6D5D20022DC3E /* RemittanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B77554129D6D5CF0022DC3E /* Remittance */ = {
+			isa = PBXGroup;
+			children = (
+				8B77557829D6D66A0022DC3E /* Application */,
+				8B77561B29DA6F010022DC3E /* Extensions */,
+				8B7755C429DA62A90022DC3E /* data */,
+				8B77559C29DA62A90022DC3E /* domain */,
+				8B7755A029DA62A90022DC3E /* presentation */,
+				8B7755D329DA63BC0022DC3E /* Resources */,
+				8B77560129DA6BB30022DC3E /* MainMenuViewController.swift */,
+				8B77560229DA6BB30022DC3E /* MainMenu.xib */,
+				8B77554B29D6D5D10022DC3E /* Assets.xcassets */,
+				8B77555029D6D5D10022DC3E /* Info.plist */,
+			);
+			path = Remittance;
+			sourceTree = "<group>";
+		};
+		8B77555829D6D5D20022DC3E /* RemittanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B77555929D6D5D20022DC3E /* RemittanceTests.swift */,
+			);
+			path = RemittanceTests;
+			sourceTree = "<group>";
+		};
+		8B77556229D6D5D20022DC3E /* RemittanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B77556329D6D5D20022DC3E /* RemittanceUITests.swift */,
+				8B77556529D6D5D20022DC3E /* RemittanceUITestsLaunchTests.swift */,
+			);
+			path = RemittanceUITests;
+			sourceTree = "<group>";
+		};
+		8B77557829D6D66A0022DC3E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8B77554229D6D5CF0022DC3E /* AppDelegate.swift */,
+				8B77554429D6D5CF0022DC3E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8B77559C29DA62A90022DC3E /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				8B77559D29DA62A90022DC3E /* repository */,
+				8B77559E29DA62A90022DC3E /* entity */,
+				8B77559F29DA62A90022DC3E /* usecase */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		8B77559D29DA62A90022DC3E /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		8B77559E29DA62A90022DC3E /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		8B77559F29DA62A90022DC3E /* usecase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = usecase;
+			sourceTree = "<group>";
+		};
+		8B7755A029DA62A90022DC3E /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755A129DA62A90022DC3E /* viewmodel */,
+				8B7755A229DA62A90022DC3E /* page */,
+				8B7755C229DA62A90022DC3E /* di */,
+				8B7755C329DA62A90022DC3E /* state */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		8B7755A129DA62A90022DC3E /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		8B7755A229DA62A90022DC3E /* page */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755BF29DA62A90022DC3E /* MainRemittance */,
+				8B7755A329DA62A90022DC3E /* RecipientsInfo */,
+				8B7755B829DA62A90022DC3E /* DataConfirmation */,
+			);
+			path = page;
+			sourceTree = "<group>";
+		};
+		8B7755A329DA62A90022DC3E /* RecipientsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8B77562A29DA72350022DC3E /* BankAccount */,
+				8B77564029DA74070022DC3E /* eWallet */,
+			);
+			path = RecipientsInfo;
+			sourceTree = "<group>";
+		};
+		8B7755B829DA62A90022DC3E /* DataConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755B929DA62A90022DC3E /* BankAccountDataConfirmation */,
+				8B7755BC29DA62A90022DC3E /* eWalletAccountDataConfirmation */,
+			);
+			path = DataConfirmation;
+			sourceTree = "<group>";
+		};
+		8B7755B929DA62A90022DC3E /* BankAccountDataConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				8B77564B29DA74AB0022DC3E /* BankAccountDataConfirmation.xib */,
+				8B77564C29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift */,
+			);
+			path = BankAccountDataConfirmation;
+			sourceTree = "<group>";
+		};
+		8B7755BC29DA62A90022DC3E /* eWalletAccountDataConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				8B77564F29DA74BB0022DC3E /* EwalletDataConfirmation.xib */,
+				8B77565029DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift */,
+			);
+			path = eWalletAccountDataConfirmation;
+			sourceTree = "<group>";
+		};
+		8B7755BF29DA62A90022DC3E /* MainRemittance */ = {
+			isa = PBXGroup;
+			children = (
+				8B77562329DA71070022DC3E /* MainRemittance.xib */,
+				8B77562229DA71070022DC3E /* MainRemittanceViewController.swift */,
+			);
+			path = MainRemittance;
+			sourceTree = "<group>";
+		};
+		8B7755C229DA62A90022DC3E /* di */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		8B7755C329DA62A90022DC3E /* state */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = state;
+			sourceTree = "<group>";
+		};
+		8B7755C429DA62A90022DC3E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755C529DA62A90022DC3E /* remote */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8B7755C529DA62A90022DC3E /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755C629DA62A90022DC3E /* datasource */,
+				8B7755C729DA62A90022DC3E /* entity */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		8B7755C629DA62A90022DC3E /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		8B7755C729DA62A90022DC3E /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755C829DA62A90022DC3E /* response */,
+				8B7755CB29DA62A90022DC3E /* request */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		8B7755C829DA62A90022DC3E /* response */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755C929DA62A90022DC3E /* CityResponse.swift */,
+				8B7755CA29DA62A90022DC3E /* BankResponse.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		8B7755CB29DA62A90022DC3E /* request */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755CC29DA62A90022DC3E /* BankRequest.swift */,
+				8B7755CD29DA62A90022DC3E /* CityRequest.swift */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		8B7755D329DA63BC0022DC3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755D829DA641D0022DC3E /* Localizable.strings */,
+				8B7755DB29DA64300022DC3E /* RemittanceLanguage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B7755DB29DA64300022DC3E /* RemittanceLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755E129DA681A0022DC3E /* MainRemittance.strings */,
+				8B7755DE29DA64A10022DC3E /* RecipientsInfo */,
+				8B7755FE29DA68D30022DC3E /* DataConfirmationRemittance.strings */,
+			);
+			path = RemittanceLanguage;
+			sourceTree = "<group>";
+		};
+		8B7755DE29DA64A10022DC3E /* RecipientsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8B7755ED29DA68810022DC3E /* RecipientsInfoStep1.strings */,
+				8B7755F229DA688C0022DC3E /* RecipientsInfoStep2.strings */,
+				8B7755F729DA68930022DC3E /* RecipientsInfoStep3.strings */,
+			);
+			path = RecipientsInfo;
+			sourceTree = "<group>";
+		};
+		8B77561B29DA6F010022DC3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B77561C29DA6F610022DC3E /* UIColor.swift */,
+				8B77561529DA6EF40022DC3E /* DropDown.swift */,
+				8B77561629DA6EF50022DC3E /* UIButton.swift */,
+				8B77561729DA6EF50022DC3E /* UIVIew.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B77562A29DA72350022DC3E /* BankAccount */ = {
+			isa = PBXGroup;
+			children = (
+				8B77563029DA72A20022DC3E /* BankAccountRecipientsBankInfo */,
+				8B77563A29DA73990022DC3E /* BankAccountRecipientsInfoDetail */,
+				8B77562B29DA72680022DC3E /* BankAccountAdditionalInfoDetail */,
+			);
+			path = BankAccount;
+			sourceTree = "<group>";
+		};
+		8B77562B29DA72680022DC3E /* BankAccountAdditionalInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B77562C29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib */,
+				8B77562D29DA72840022DC3E /* BankAccountAdditionalInfoDetailViewController.swift */,
+			);
+			path = BankAccountAdditionalInfoDetail;
+			sourceTree = "<group>";
+		};
+		8B77563029DA72A20022DC3E /* BankAccountRecipientsBankInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8B77563229DA73280022DC3E /* BankAccountRecipientsBankInfo.xib */,
+				8B77563129DA73280022DC3E /* BankAccountRecipientsBankInfoViewController.swift */,
+				8B77563529DA732E0022DC3E /* MakeSureDataBankSheet */,
+			);
+			path = BankAccountRecipientsBankInfo;
+			sourceTree = "<group>";
+		};
+		8B77563529DA732E0022DC3E /* MakeSureDataBankSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8B77563629DA738C0022DC3E /* MakeSureDataBank.xib */,
+				8B77563729DA738C0022DC3E /* MakeSureDataBankViewController.swift */,
+			);
+			path = MakeSureDataBankSheet;
+			sourceTree = "<group>";
+		};
+		8B77563A29DA73990022DC3E /* BankAccountRecipientsInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B77563B29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib */,
+				8B77563C29DA73D40022DC3E /* BankAccountRecipientsInfoDetailViewController.swift */,
+			);
+			path = BankAccountRecipientsInfoDetail;
+			sourceTree = "<group>";
+		};
+		8B77564029DA74070022DC3E /* eWallet */ = {
+			isa = PBXGroup;
+			children = (
+				8B77564129DA742B0022DC3E /* eWalletRecipientsInfoDetail */,
+				8B77564229DA742F0022DC3E /* eWalletAdditionalInfoDetail */,
+			);
+			path = eWallet;
+			sourceTree = "<group>";
+		};
+		8B77564129DA742B0022DC3E /* eWalletRecipientsInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B77564429DA74740022DC3E /* EwalletRecipientsInfoDetail.xib */,
+				8B77564329DA74740022DC3E /* EwalletRecipientsInfoDetailViewController.swift */,
+			);
+			path = eWalletRecipientsInfoDetail;
+			sourceTree = "<group>";
+		};
+		8B77564229DA742F0022DC3E /* eWalletAdditionalInfoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B77564829DA748D0022DC3E /* EwalletAdditionalInfoDetail.xib */,
+				8B77564729DA748D0022DC3E /* EwalletAdditionalInfoDetailViewController.swift */,
+			);
+			path = eWalletAdditionalInfoDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B77553E29D6D5CF0022DC3E /* Remittance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B77556929D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "Remittance" */;
+			buildPhases = (
+				8B77553B29D6D5CF0022DC3E /* Sources */,
+				8B77553C29D6D5CF0022DC3E /* Frameworks */,
+				8B77553D29D6D5CF0022DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remittance;
+			packageProductDependencies = (
+				8B77557329D6D6510022DC3E /* BottomSheetController */,
+				8B77557629D6D6610022DC3E /* iOSDropDown */,
+				8B77560B29DA6D9A0022DC3E /* Localize_Swift */,
+			);
+			productName = Remittance;
+			productReference = 8B77553F29D6D5CF0022DC3E /* Remittance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B77555429D6D5D20022DC3E /* RemittanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B77556C29D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "RemittanceTests" */;
+			buildPhases = (
+				8B77555129D6D5D20022DC3E /* Sources */,
+				8B77555229D6D5D20022DC3E /* Frameworks */,
+				8B77555329D6D5D20022DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B77555729D6D5D20022DC3E /* PBXTargetDependency */,
+			);
+			name = RemittanceTests;
+			productName = RemittanceTests;
+			productReference = 8B77555529D6D5D20022DC3E /* RemittanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B77555E29D6D5D20022DC3E /* RemittanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B77556F29D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "RemittanceUITests" */;
+			buildPhases = (
+				8B77555B29D6D5D20022DC3E /* Sources */,
+				8B77555C29D6D5D20022DC3E /* Frameworks */,
+				8B77555D29D6D5D20022DC3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B77556129D6D5D20022DC3E /* PBXTargetDependency */,
+			);
+			name = RemittanceUITests;
+			productName = RemittanceUITests;
+			productReference = 8B77555F29D6D5D20022DC3E /* RemittanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B77553729D6D5CE0022DC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8B77553E29D6D5CF0022DC3E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8B77555429D6D5D20022DC3E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8B77553E29D6D5CF0022DC3E;
+					};
+					8B77555E29D6D5D20022DC3E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8B77553E29D6D5CF0022DC3E;
+					};
+				};
+			};
+			buildConfigurationList = 8B77553A29D6D5CE0022DC3E /* Build configuration list for PBXProject "Remittance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				id,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 8B77553629D6D5CE0022DC3E;
+			packageReferences = (
+				8B77557229D6D6510022DC3E /* XCRemoteSwiftPackageReference "BottomSheetController" */,
+				8B77557529D6D6610022DC3E /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				8B77560A29DA6D9A0022DC3E /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+			);
+			productRefGroup = 8B77554029D6D5CF0022DC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B77553E29D6D5CF0022DC3E /* Remittance */,
+				8B77555429D6D5D20022DC3E /* RemittanceTests */,
+				8B77555E29D6D5D20022DC3E /* RemittanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B77553D29D6D5CF0022DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77563829DA738C0022DC3E /* MakeSureDataBank.xib in Resources */,
+				8B7755D629DA641D0022DC3E /* Localizable.strings in Resources */,
+				8B7755FC29DA68D30022DC3E /* DataConfirmationRemittance.strings in Resources */,
+				8B7755DF29DA681A0022DC3E /* MainRemittance.strings in Resources */,
+				8B7755F529DA68930022DC3E /* RecipientsInfoStep3.strings in Resources */,
+				8B77562529DA71070022DC3E /* MainRemittance.xib in Resources */,
+				8B77564A29DA748D0022DC3E /* EwalletAdditionalInfoDetail.xib in Resources */,
+				8B77564D29DA74AB0022DC3E /* BankAccountDataConfirmation.xib in Resources */,
+				8B77563D29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib in Resources */,
+				8B7755F029DA688C0022DC3E /* RecipientsInfoStep2.strings in Resources */,
+				8B77560429DA6BB30022DC3E /* MainMenu.xib in Resources */,
+				8B77562E29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib in Resources */,
+				8B7755EB29DA68810022DC3E /* RecipientsInfoStep1.strings in Resources */,
+				8B77554C29D6D5D10022DC3E /* Assets.xcassets in Resources */,
+				8B77565129DA74BB0022DC3E /* EwalletDataConfirmation.xib in Resources */,
+				8B77564629DA74740022DC3E /* EwalletRecipientsInfoDetail.xib in Resources */,
+				8B77563429DA73280022DC3E /* BankAccountRecipientsBankInfo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555329D6D5D20022DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555D29D6D5D20022DC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B77553B29D6D5CF0022DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77562429DA71070022DC3E /* MainRemittanceViewController.swift in Sources */,
+				8B77564929DA748D0022DC3E /* EwalletAdditionalInfoDetailViewController.swift in Sources */,
+				8B77565229DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift in Sources */,
+				8B77560629DA6D2E0022DC3E /* CityResponse.swift in Sources */,
+				8B77563329DA73280022DC3E /* BankAccountRecipientsBankInfoViewController.swift in Sources */,
+				8B77562F29DA72840022DC3E /* BankAccountAdditionalInfoDetailViewController.swift in Sources */,
+				8B77561829DA6EF50022DC3E /* DropDown.swift in Sources */,
+				8B77561A29DA6EF50022DC3E /* UIVIew.swift in Sources */,
+				8B77560329DA6BB30022DC3E /* MainMenuViewController.swift in Sources */,
+				8B77564529DA74740022DC3E /* EwalletRecipientsInfoDetailViewController.swift in Sources */,
+				8B77563E29DA73D40022DC3E /* BankAccountRecipientsInfoDetailViewController.swift in Sources */,
+				8B77561D29DA6F610022DC3E /* UIColor.swift in Sources */,
+				8B77564E29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift in Sources */,
+				8B77560729DA6D310022DC3E /* BankResponse.swift in Sources */,
+				8B77554329D6D5CF0022DC3E /* AppDelegate.swift in Sources */,
+				8B77560829DA6D370022DC3E /* BankRequest.swift in Sources */,
+				8B77560929DA6D390022DC3E /* CityRequest.swift in Sources */,
+				8B77554529D6D5CF0022DC3E /* SceneDelegate.swift in Sources */,
+				8B77563929DA738C0022DC3E /* MakeSureDataBankViewController.swift in Sources */,
+				8B77561929DA6EF50022DC3E /* UIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555129D6D5D20022DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77555A29D6D5D20022DC3E /* RemittanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77555B29D6D5D20022DC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B77556629D6D5D20022DC3E /* RemittanceUITestsLaunchTests.swift in Sources */,
+				8B77556429D6D5D20022DC3E /* RemittanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B77555729D6D5D20022DC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B77553E29D6D5CF0022DC3E /* Remittance */;
+			targetProxy = 8B77555629D6D5D20022DC3E /* PBXContainerItemProxy */;
+		};
+		8B77556129D6D5D20022DC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B77553E29D6D5CF0022DC3E /* Remittance */;
+			targetProxy = 8B77556029D6D5D20022DC3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B7755D829DA641D0022DC3E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755D729DA641D0022DC3E /* en */,
+				8B7755D929DA641F0022DC3E /* zh-Hans */,
+				8B7755DA29DA64200022DC3E /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8B7755E129DA681A0022DC3E /* MainRemittance.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755E029DA681A0022DC3E /* en */,
+				8B7755E229DA681D0022DC3E /* zh-Hans */,
+				8B7755E329DA681E0022DC3E /* id */,
+			);
+			name = MainRemittance.strings;
+			sourceTree = "<group>";
+		};
+		8B7755ED29DA68810022DC3E /* RecipientsInfoStep1.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755EC29DA68810022DC3E /* en */,
+				8B7755EE29DA68860022DC3E /* zh-Hans */,
+				8B7755EF29DA68870022DC3E /* id */,
+			);
+			name = RecipientsInfoStep1.strings;
+			sourceTree = "<group>";
+		};
+		8B7755F229DA688C0022DC3E /* RecipientsInfoStep2.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755F129DA688C0022DC3E /* en */,
+				8B7755F329DA688E0022DC3E /* zh-Hans */,
+				8B7755F429DA688E0022DC3E /* id */,
+			);
+			name = RecipientsInfoStep2.strings;
+			sourceTree = "<group>";
+		};
+		8B7755F729DA68930022DC3E /* RecipientsInfoStep3.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755F629DA68930022DC3E /* en */,
+				8B7755F829DA68960022DC3E /* zh-Hans */,
+				8B7755F929DA68970022DC3E /* id */,
+			);
+			name = RecipientsInfoStep3.strings;
+			sourceTree = "<group>";
+		};
+		8B7755FE29DA68D30022DC3E /* DataConfirmationRemittance.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7755FD29DA68D30022DC3E /* en */,
+				8B7755FF29DA68D60022DC3E /* zh-Hans */,
+				8B77560029DA68D70022DC3E /* id */,
+			);
+			name = DataConfirmationRemittance.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B77556729D6D5D20022DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B77556829D6D5D20022DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B77556A29D6D5D20022DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Remittance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.Remittance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B77556B29D6D5D20022DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Remittance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.Remittance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B77556D29D6D5D20022DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.RemittanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remittance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remittance";
+			};
+			name = Debug;
+		};
+		8B77556E29D6D5D20022DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.RemittanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remittance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remittance";
+			};
+			name = Release;
+		};
+		8B77557029D6D5D20022DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.RemittanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Remittance;
+			};
+			name = Debug;
+		};
+		8B77557129D6D5D20022DC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H483TM3N88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldybuana.RemittanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Remittance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B77553A29D6D5CE0022DC3E /* Build configuration list for PBXProject "Remittance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B77556729D6D5D20022DC3E /* Debug */,
+				8B77556829D6D5D20022DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B77556929D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "Remittance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B77556A29D6D5D20022DC3E /* Debug */,
+				8B77556B29D6D5D20022DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B77556C29D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "RemittanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B77556D29D6D5D20022DC3E /* Debug */,
+				8B77556E29D6D5D20022DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B77556F29D6D5D20022DC3E /* Build configuration list for PBXNativeTarget "RemittanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B77557029D6D5D20022DC3E /* Debug */,
+				8B77557129D6D5D20022DC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B77557229D6D6510022DC3E /* XCRemoteSwiftPackageReference "BottomSheetController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/naru-jpn/BottomSheetController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8B77557529D6D6610022DC3E /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		8B77560A29DA6D9A0022DC3E /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B77557329D6D6510022DC3E /* BottomSheetController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B77557229D6D6510022DC3E /* XCRemoteSwiftPackageReference "BottomSheetController" */;
+			productName = BottomSheetController;
+		};
+		8B77557629D6D6610022DC3E /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B77557529D6D6610022DC3E /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+		8B77560B29DA6D9A0022DC3E /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B77560A29DA6D9A0022DC3E /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B77553729D6D5CE0022DC3E /* Project object */;
+}

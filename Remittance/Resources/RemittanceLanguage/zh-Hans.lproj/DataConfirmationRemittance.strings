@@ -1,0 +1,28 @@
+/* 
+  DataConfirmationRemittance.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: - KONFIRMASI DATA (EWALLET/BANK ACCOUNT)
+"make_sure_all_the_information" = "在继续汇款之前，请确保以下信息正确无误";
+"origin_country" = "原产国";
+"destination_country" = "目的地国家";
+"receiving_money_method" = "收款方式";
+
+"recipients_bank_name" = "收款银行名称"; // Rekening Bank
+
+"recipients_name" = "收件人姓名";
+"recipients_ewallet_id" = "收款人的钱包 ID";
+
+"account_number" = "账号";    // Rekening Bank
+"destination_ezeetunai_number" = "预期的 ezeeTunai号码";   // eWallet
+
+"amount_of_transfer" = "名义转让";
+"current_rate" = "当前汇率";
+"fee" = "费用";
+"converted_amount" = "名义转换";
+"amount_received" = "名义收到";
+"total_amount" = "总薪酬";

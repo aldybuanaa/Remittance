@@ -1,0 +1,30 @@
+/* 
+  RecipientsInfoStep2.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 2: DETAIL INFO PENERIMA)
+"recipients_info_details" = "收件人信息详情";
+"full_name" = "全名";
+"enter_full_name" = "输入全名";   // Placeholder
+"relationship" = "关系";
+"choose_relationship" = "选择关系";   // Placeholder
+
+"self" = "自己";   // Menu Drop down
+"siblings" = "兄弟姐妹";   // Menu Drop down
+"parents" = "父母";   // Menu Drop down
+"family" = "家庭";   // Menu Drop down
+"friends" = "朋友们";   // Menu Drop down
+
+"phone_number" = "手机号";
+"enter_phone_number" = "输入电话号码";   // Placeholder
+"make_sure_the_phone" = "确保号码有效并已在 Whatsapp 上注册，以简化检查过程";
+"recipient_address" = "收件人地址";
+"recipient_address_details" = "完整地址";
+"enter_recipient_address" = "输入收件人地址详细信息";   // Placeholder
+"city" = "城市";
+"choose_city" = "选择城市";   // Placeholder
+"save_recipients_data" = "保存收件人数据";

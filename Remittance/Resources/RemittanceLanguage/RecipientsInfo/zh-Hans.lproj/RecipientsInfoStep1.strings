@@ -1,0 +1,22 @@
+/* 
+  RecipientsInfoStep1.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 1: DETAIL BANK PENERIMA)
+"recipients_bank_details" = "收款银行资料";
+"recipients_bank_name" = "收款银行名称";
+"choose_bank" = "选择一家银行";
+"account_number" = "帐号";
+"enter_account_number" = "输入账号";         // Placeholder
+"bank_account_owners_name" = "账户持有人姓名";
+"enter_bank_account_owners_name" = "输入银行账户所有者的姓名";   // Placeholder
+"please_make_sure" = "确保账户所有者的姓名与账簿上的姓名相符，以免延误交货时间。";
+
+
+// MARK: BOTTOM SHEET PASTIKAN DATA BANK PENERIMA BANK SUDAH BENAR
+"make_sure_the_recipient" = "确保收款人的银行数据正确";
+"the_incorrect_data" = "不正确的收款银行数据可能导致汇款延迟或交易失败。";

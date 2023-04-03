@@ -1,0 +1,37 @@
+/* 
+  RecipientsInfoStep3.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 3: DETAIL INFO TAMBAHAN)
+"additional_info_details" = "附加信息详情";
+"source_of_funds" = "资金来源";
+"choose_source_of" = "  选择资金来源";   // Placeholder
+"purpose_of_sending_money" = "交货原因";
+"choose_purpose_of" = "  选择汇款目的";   // Placeholder
+
+"salary" = "薪水";   // Menu Drop down
+"business" = "商业";   // Menu Drop down
+"loans" = "贷款";   // Menu Drop down
+"sale_of_assets" = "出售资产";   // Menu Drop down
+"deposits" = "存款";   // Menu Drop down
+"donations" = "捐款";   // Menu Drop down
+"gifts" = "礼物";   // Menu Drop down
+"investments" = "投资";   // Menu Drop down
+"savings" = "储蓄";   // Menu Drop down
+"payment of goods" = "商品和服务的支付";   // Menu Drop down
+"payment of salaries" = "支付工资";   // Menu Drop down
+"insurance contributions" = "保险供款";   // Menu Drop down
+"medical expenses" = "医疗/保健费用";   // Menu Drop down
+"educational expenses" = "教育费用";   // Menu Drop down
+"living expenses" = "生活开销";   // Menu Drop down
+"family allowance" = "家庭津贴";   // Menu Drop down
+"others" = "其他";   // Menu Drop down
+
+"supporting_document" = "证明文件（例如发票）";
+"supporting_document_is" = "需要证明文件（例如：发票）因为您的交易在1个月内达到了100.000 USD";
+"add_file" = "添加文件";
+"change_file" = "更改文件";

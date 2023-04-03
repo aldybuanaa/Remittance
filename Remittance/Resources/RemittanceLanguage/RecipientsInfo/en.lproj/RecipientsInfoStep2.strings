@@ -1,0 +1,30 @@
+/* 
+  RecipientsInfoStep2.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 2: DETAIL INFO PENERIMA)
+"recipients_info_details" = "Recipients Info Details";
+"full_name" = "Full Name";
+"enter_full_name" = "Enter Full Name";   // Placeholder
+"relationship" = "Relationship";
+"choose_relationship" = "Choose Relationship";   // Placeholder
+
+"self" = "Self";   // Menu Drop down
+"siblings" = "Siblings";   // Menu Drop down
+"parents" = "Parents";   // Menu Drop down
+"family" = "Family";   // Menu Drop down
+"friends" = "Friends";   // Menu Drop down
+
+"phone_number" = "Phone Number";
+"enter_phone_number" = "Enter Phone Number";   // Placeholder
+"make_sure_the_phone" = "Make sure the phone number is connected to Whatsapp";
+"recipient_address" = "Recipient Address";
+"recipient_address_details" = "Recipient Address Details";
+"enter_recipient_address" = "Enter recipient address details";   // Placeholder
+"city" = "City";
+"choose_city" = "Choose City";   // Placeholder
+"save_recipients_data" = "Save recipients data";

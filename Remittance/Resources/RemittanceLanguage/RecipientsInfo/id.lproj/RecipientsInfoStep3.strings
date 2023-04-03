@@ -1,0 +1,37 @@
+/* 
+  RecipientsInfoStep3.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 3: DETAIL INFO TAMBAHAN)
+"additional_info_details" = "Detail Info Tambahan";
+"source_of_funds" = "Sumber Dana";
+"choose_source_of" = "  Pilih Sumber Dana";   // Placeholder
+"purpose_of_sending_money" = "Alasan Pengiriman";
+"choose_purpose_of" = "  Pilih Alasan";   // Placeholder
+
+"salary" = "Gaji";   // Menu Drop down
+"business" = "Bisnis";   // Menu Drop down
+"loans" = "Pinjaman";   // Menu Drop down
+"sale_of_assets" = "Penjualan Aset";   // Menu Drop down
+"deposits" = "Simpanan";   // Menu Drop down
+"donations" = "Donasi";   // Menu Drop down
+"gifts" = "Hadiah";   // Menu Drop down
+"investments" = "Investasi";   // Menu Drop down
+"savings" = "Tabungan";   // Menu Drop down
+"payment of goods" = "Pembayaran Barang & Jasa";   // Menu Drop down
+"payment of salaries" = "Pembayaran Gaji";   // Menu Drop down
+"insurance contributions" = "Biaya Asuransi";   // Menu Drop down
+"medical expenses" = "Biaya Medis/Kesehatan";   // Menu Drop down
+"educational expenses" = "Biaya Pendidikan";   // Menu Drop down
+"living expenses" = "Biaya Hidup";   // Menu Drop down
+"family allowance" = "Tunjangan Keluarga";   // Menu Drop down
+"others" = "Lainnya";   // Menu Drop down
+
+"supporting_document" = "Dokumen Pendukung (contoh. Invoice)";
+"supporting_document_is" = "Dokumen pendukung (contoh: Invoice) diperlukan karena transaksi Anda telah mencapai 100.000 USD dalam 1 bulan";
+"add_file" = "Tambah File";
+"change_file" = "Ganti File";

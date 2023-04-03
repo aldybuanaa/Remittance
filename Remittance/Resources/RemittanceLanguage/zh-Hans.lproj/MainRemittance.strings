@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU REMITTANCE (EWALLET/BANK ACCOUNT)
+"amount_of_transfer" = "填写转账名义金额";
+"amount_you_send" = "汇款";
+"receiving_money_method" = "收款方式";
+"cheapest_fee" = "最便宜的成本";
+"fee" = "费用";
+"amount_well_convert" = "待转换总数";
+"current_rate" = "当前汇率";
+"amount_received" = "收到的钱";
+
+"recipients_ewallet_id" = "收款人的钱包 ID";     // eWallet
+"make_sure_the_ewallet" = "请确保电子钱包 ID 是收款人的支付宝 ID，该 ID 已通过验证并链接到银行账户。 无效的支付宝ID会导致交易失败";     // eWallet
+
+"information" = "信息";
+"total_amount" = "总付款";
+"maximum_amount_transfer" = "最大转让 ";
+
+"ezeetunai_confirmed" = "ezeeTunai确认: ";     // eWallet
+"ezeetunai_unregistered" = "号码未在ezeeTunai注册";     // eWallet
+"share_link_to" = "将链接分享给收件人，以注册 ezeeTunai";     // eWallet

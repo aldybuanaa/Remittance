@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "bottomsheetcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/naru-jpn/BottomSheetController.git",
+      "state" : {
+        "revision" : "4794fc2741da184021cb9feda54ee188285116bd",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "iosdropdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jriosdev/iOSDropDown.git",
+      "state" : {
+        "revision" : "945c4f1945ed37a31055e812a5ee11a3d06e88ab",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "localize-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/Localize-Swift.git",
+      "state" : {
+        "revision" : "0aa221fed0512772eaad04171d966b8d77b15212",
+        "version" : "3.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

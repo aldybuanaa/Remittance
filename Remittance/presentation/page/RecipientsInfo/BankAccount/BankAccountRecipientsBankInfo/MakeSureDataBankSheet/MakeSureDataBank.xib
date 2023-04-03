@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MakeSureDataBankViewController" customModule="CobaLogin" customModuleProvider="target">
+            <connections>
+                <outlet property="makeSureTheRecipientLabel" destination="mka-dG-sGp" id="l20-Bn-CH0"/>
+                <outlet property="nextButtonMakeSure" destination="yWF-fn-HiK" id="Myo-fU-R8o"/>
+                <outlet property="theIncorrectDataLabel" destination="KTb-bx-Juf" id="S0U-Fr-2hD"/>
+                <outlet property="view" destination="o1c-Mz-Pjd" id="Cke-gO-SjO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="o1c-Mz-Pjd">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="339"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeV-DK-Ke0">
+                    <rect key="frame" x="353" y="69" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="UUM-ll-7pH"/>
+                        <constraint firstAttribute="width" secondItem="eeV-DK-Ke0" secondAttribute="height" multiplier="1:1" id="lGm-BR-4oT"/>
+                    </constraints>
+                    <state key="normal" image="ICclose-grey"/>
+                    <connections>
+                        <action selector="closeButtonTapped:" destination="-1" eventType="touchUpInside" id="FXy-Fw-QRI"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vxq-p9-ni6">
+                    <rect key="frame" x="20" y="107" width="353" height="109.33333333333331"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gSS-Av-qcs">
+                            <rect key="frame" x="0.0" y="0.0" width="353" height="109.33333333333333"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pastikan Data Bank Penerima Sudah Benar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mka-dG-sGp">
+                                    <rect key="frame" x="52" y="0.0" width="249" height="43"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kesalahan data bank penerima dapat mengakibatkan keterlambatan waktu pengiriman uang atau transaksi gagal. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTb-bx-Juf">
+                                    <rect key="frame" x="4.3333333333333428" y="59" width="344.33333333333326" height="50.333333333333343"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="gSS-Av-qcs" firstAttribute="top" secondItem="Vxq-p9-ni6" secondAttribute="top" id="3Zw-VN-K19"/>
+                        <constraint firstItem="gSS-Av-qcs" firstAttribute="leading" secondItem="Vxq-p9-ni6" secondAttribute="leading" id="7bk-M9-1jg"/>
+                        <constraint firstAttribute="trailing" secondItem="gSS-Av-qcs" secondAttribute="trailing" id="U00-1U-RQ8"/>
+                        <constraint firstAttribute="bottom" secondItem="gSS-Av-qcs" secondAttribute="bottom" id="a5D-IH-FjR"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhP-S0-NSX">
+                    <rect key="frame" x="0.0" y="216.33333333333334" width="393" height="122.66666666666666"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWF-fn-HiK">
+                            <rect key="frame" x="20" y="58.666666666666657" width="353" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="TM6-sP-lJt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="LANJUT">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="nextButtonMakeSureTapped:" destination="-1" eventType="touchUpInside" id="qoj-Dv-QZz"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="yWF-fn-HiK" secondAttribute="trailing" constant="20" id="2La-Nj-RjH"/>
+                        <constraint firstItem="yWF-fn-HiK" firstAttribute="top" secondItem="AhP-S0-NSX" secondAttribute="top" priority="250" constant="20" id="M4m-9B-g06"/>
+                        <constraint firstAttribute="bottom" secondItem="yWF-fn-HiK" secondAttribute="bottom" priority="750" constant="16" id="Xmb-DR-EQp"/>
+                        <constraint firstItem="yWF-fn-HiK" firstAttribute="leading" secondItem="AhP-S0-NSX" secondAttribute="leading" constant="20" id="lnq-iY-GPs"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="size" keyPath="layer.borderWidt">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="V9x-7q-djo"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Vxq-p9-ni6" firstAttribute="leading" secondItem="V9x-7q-djo" secondAttribute="leading" constant="20" id="DB5-oQ-t12"/>
+                <constraint firstItem="AhP-S0-NSX" firstAttribute="top" secondItem="Vxq-p9-ni6" secondAttribute="bottom" priority="750" id="DcY-pf-yDE"/>
+                <constraint firstItem="AhP-S0-NSX" firstAttribute="leading" secondItem="V9x-7q-djo" secondAttribute="leading" id="MUw-Zy-cHq"/>
+                <constraint firstItem="AhP-S0-NSX" firstAttribute="trailing" secondItem="V9x-7q-djo" secondAttribute="trailing" id="VVY-nJ-dR7"/>
+                <constraint firstItem="V9x-7q-djo" firstAttribute="trailing" secondItem="eeV-DK-Ke0" secondAttribute="trailing" constant="20" id="Va3-Lq-wwz"/>
+                <constraint firstItem="eeV-DK-Ke0" firstAttribute="top" secondItem="V9x-7q-djo" secondAttribute="top" constant="10" id="Wxb-de-DhR"/>
+                <constraint firstItem="V9x-7q-djo" firstAttribute="bottom" secondItem="AhP-S0-NSX" secondAttribute="bottom" id="eD4-cg-l1S"/>
+                <constraint firstItem="Vxq-p9-ni6" firstAttribute="top" secondItem="eeV-DK-Ke0" secondAttribute="bottom" constant="18" id="haf-bW-tGs"/>
+                <constraint firstItem="V9x-7q-djo" firstAttribute="trailing" secondItem="Vxq-p9-ni6" secondAttribute="trailing" constant="20" id="tke-YB-38K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-51.145038167938928" y="-210.91549295774649"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ICclose-grey" width="16.333333969116211" height="16.666666030883789"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

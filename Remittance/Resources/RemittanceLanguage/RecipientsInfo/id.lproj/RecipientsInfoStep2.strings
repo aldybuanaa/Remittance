@@ -1,0 +1,30 @@
+/* 
+  RecipientsInfoStep2.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU INFO PENERIMA (STEP 2: DETAIL INFO PENERIMA)
+"recipients_info_details" = "Detail Info Penerima";
+"full_name" = "Nama Lengkap";
+"enter_full_name" = "Masukkan Nama Lengkap";   // Placeholder
+"relationship" = "Hubungan";
+"choose_relationship" = "Pilih Hubungan";   // Placeholder
+
+"self" = "Diri Sendiri";   // Menu Drop down
+"siblings" = "Saudara Kandung";   // Menu Drop down
+"parents" = "Orang tua";   // Menu Drop down
+"family" = "Keluarga";   // Menu Drop down
+"friends" = "Teman";   // Menu Drop down
+
+"phone_number" = "No Handphone";
+"enter_phone_number" = "Masukkan No. Handphone";   // Placeholder
+"make_sure_the_phone" = "Pastikan nomor tersebut aktif dan terdaftar Whatsapp untuk mempermudah proses pengecekkan";
+"recipient_address" = "Alamat Penerima";
+"recipient_address_details" = "Alamat Lengkap";
+"enter_recipient_address" = "Masukkan Alamat Lengkap";   // Placeholder
+"city" = "Kota";
+"choose_city" = "Pilih Kota";   // Placeholder
+"save_recipients_data" = "Simpan Data Penerima";

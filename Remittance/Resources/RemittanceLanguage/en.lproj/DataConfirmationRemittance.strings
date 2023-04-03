@@ -1,0 +1,28 @@
+/* 
+  DataConfirmationRemittance.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: - KONFIRMASI DATA (EWALLET/BANK ACCOUNT)
+"make_sure_all_the_information" = "Make sure all the information below is correct before sending money";
+"origin_country" = "Origin Country";
+"destination_country" = "Destination country";
+"receiving_money_method" = "Receiving Money Method";
+
+"recipients_bank_name" = "Recipients Bank Name"; // Rekening Bank
+
+"recipients_name" = "Recipients Name";
+"recipients_ewallet_id" = "Recipient’s eWallet ID";
+
+"account_number" = "Account Number";    // Rekening Bank
+"destination_ezeetunai_number" = "Destination ezeeTunai number";   // eWallet
+
+"amount_of_transfer" = "Amount of transfer";
+"current_rate" = "Current Rate";
+"fee" = "Fee";
+"converted_amount" = "Converted Amount";
+"amount_received" = "Amount received";
+"total_amount" = "Total Amount";

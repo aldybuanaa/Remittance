@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: TITLE PAGE & BUTTON
+"title_remittance" = "汇款";
+"title_recipients_info" = "收件人信息";
+"title_data_confirmation" = "数据确认";
+
+"button_language" = " (语言)";
+"button_next" = "继续";
+"button_bank_account_number" = "银行账户";
+"button_ewallet" = "电子钱包";

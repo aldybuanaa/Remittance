@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Remittance
+
+  Created by developer on 03/04/23.
+  
+*/
+
+// MARK: MENU REMITTANCE (EWALLET/BANK ACCOUNT)
+"amount_of_transfer" = "Amount of Transfer";
+"amount_you_send" = "Amount you send";
+"receiving_money_method" = "Receiving Money Method";
+"cheapest_fee" = "Cheapest fee";
+"fee" = "Fee";
+"amount_well_convert" = "Amount we’ll convert";
+"current_rate" = "Current rate";
+"amount_received" = "Amount received ";
+
+"recipients_ewallet_id" = "Recipient’s eWallet ID";     // eWallet
+"make_sure_the_ewallet" = "Make sure the eWallet ID is the recipient's Alipay ID which has been verified and linked to the bank account. Invalid Alipay ID can cause the transaction fail";     // eWallet
+
+"information" = "Information";
+"total_amount" = "Total Amount";
+"maximum_amount_transfer" = "Maximum amount transfer ";
+
+"ezeetunai_confirmed" = "ezeeTunai confirmed: ";     // eWallet
+"ezeetunai_unregistered" = "ezeeTunai unregistered";     // eWallet
+"share_link_to" = "Share link to recipients to join ezeeTunai";     // eWallet
