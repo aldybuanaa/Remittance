@@ -97,6 +97,8 @@ class BankAccountRecipientsBankInfoViewController: UIViewController {
         borderTextFieldViewBankAccountOwners.borderTextFieldBox()
     }
     
+    
+    
     @IBAction func nextButtonBankInfoTapped(_ sender: Any) {
         
 //        let nib = BankAccountRecipientsInfoDetailViewController(nibName: "BankAccountRecipientsInfoDetail", bundle: nil)
@@ -106,10 +108,16 @@ class BankAccountRecipientsBankInfoViewController: UIViewController {
         
         let nib = MakeSureDataBankViewController(nibName: "MakeSureDataBank", bundle: nil)
         nib.modalPresentationStyle = .overFullScreen
+//        nib.onClick = {
+//            let nib = BankAccountRecipientsInfoDetailViewController(nibName: "BankAccountRecipientsInfoDetail", bundle: nil)
+//
+//            self.navigationController?.pushViewController(nib, animated: true)
+//        }
         let bottomSheetController = BottomSheetController(contentViewController: nib)
         
         
         self.present(bottomSheetController, animated: true)
     }
+
 
 }

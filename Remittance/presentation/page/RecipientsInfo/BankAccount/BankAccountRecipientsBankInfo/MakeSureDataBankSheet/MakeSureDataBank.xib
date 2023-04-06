@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MakeSureDataBankViewController" customModule="CobaLogin" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MakeSureDataBankViewController" customModule="Remittance" customModuleProvider="target">
             <connections>
                 <outlet property="makeSureTheRecipientLabel" destination="mka-dG-sGp" id="l20-Bn-CH0"/>
-                <outlet property="nextButtonMakeSure" destination="yWF-fn-HiK" id="Myo-fU-R8o"/>
+                <outlet property="nextButtonMakeSure" destination="yWF-fn-HiK" id="rJ9-Ky-Al8"/>
                 <outlet property="theIncorrectDataLabel" destination="KTb-bx-Juf" id="S0U-Fr-2hD"/>
                 <outlet property="view" destination="o1c-Mz-Pjd" id="Cke-gO-SjO"/>
             </connections>
@@ -62,10 +62,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhP-S0-NSX">
-                    <rect key="frame" x="0.0" y="216.33333333333334" width="393" height="122.66666666666666"/>
+                    <rect key="frame" x="0.0" y="216.33333333333334" width="393" height="88.666666666666657"/>
                     <subviews>
                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWF-fn-HiK">
-                            <rect key="frame" x="20" y="58.666666666666657" width="353" height="48"/>
+                            <rect key="frame" x="20" y="24.666666666666657" width="353" height="48"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="48" id="TM6-sP-lJt"/>
                             </constraints>
@@ -75,7 +75,7 @@
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
-                                <action selector="nextButtonMakeSureTapped:" destination="-1" eventType="touchUpInside" id="qoj-Dv-QZz"/>
+                                <action selector="nextButtonMakeSureTapped:" destination="-1" eventType="touchUpInside" id="OHH-JQ-dHM"/>
                             </connections>
                         </button>
                     </subviews>

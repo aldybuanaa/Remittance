@@ -50,6 +50,8 @@
 		8B77564E29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77564C29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift */; };
 		8B77565129DA74BB0022DC3E /* EwalletDataConfirmation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B77564F29DA74BB0022DC3E /* EwalletDataConfirmation.xib */; };
 		8B77565229DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77565029DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift */; };
+		8BE3793429DBD76E004A44E7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3793229DBD76E004A44E7 /* TimerViewController.swift */; };
+		8BE3793529DBD76E004A44E7 /* Timer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE3793329DBD76E004A44E7 /* Timer.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,8 @@
 		8B77564C29DA74AB0022DC3E /* BankAccountDataConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountDataConfirmationViewController.swift; sourceTree = "<group>"; };
 		8B77564F29DA74BB0022DC3E /* EwalletDataConfirmation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EwalletDataConfirmation.xib; sourceTree = "<group>"; };
 		8B77565029DA74BB0022DC3E /* EwalletDataConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwalletDataConfirmationViewController.swift; sourceTree = "<group>"; };
+		8BE3793229DBD76E004A44E7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8BE3793329DBD76E004A44E7 /* Timer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Timer.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,7 @@
 		8B77554129D6D5CF0022DC3E /* Remittance */ = {
 			isa = PBXGroup;
 			children = (
+				8BE3793129DBD74E004A44E7 /* Test */,
 				8B77557829D6D66A0022DC3E /* Application */,
 				8B77561B29DA6F010022DC3E /* Extensions */,
 				8B7755C429DA62A90022DC3E /* data */,
@@ -502,6 +507,15 @@
 			path = eWalletAdditionalInfoDetail;
 			sourceTree = "<group>";
 		};
+		8BE3793129DBD74E004A44E7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3793229DBD76E004A44E7 /* TimerViewController.swift */,
+				8BE3793329DBD76E004A44E7 /* Timer.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -628,6 +642,7 @@
 				8B77564D29DA74AB0022DC3E /* BankAccountDataConfirmation.xib in Resources */,
 				8B77563D29DA73D40022DC3E /* BankAccountRecipientsInfoDetail.xib in Resources */,
 				8B7755F029DA688C0022DC3E /* RecipientsInfoStep2.strings in Resources */,
+				8BE3793529DBD76E004A44E7 /* Timer.xib in Resources */,
 				8B77560429DA6BB30022DC3E /* MainMenu.xib in Resources */,
 				8B77562E29DA72840022DC3E /* BankAccountAdditionalInfoDetail.xib in Resources */,
 				8B7755EB29DA68810022DC3E /* RecipientsInfoStep1.strings in Resources */,
@@ -677,6 +692,7 @@
 				8B77560829DA6D370022DC3E /* BankRequest.swift in Sources */,
 				8B77560929DA6D390022DC3E /* CityRequest.swift in Sources */,
 				8B77554529D6D5CF0022DC3E /* SceneDelegate.swift in Sources */,
+				8BE3793429DBD76E004A44E7 /* TimerViewController.swift in Sources */,
 				8B77563929DA738C0022DC3E /* MakeSureDataBankViewController.swift in Sources */,
 				8B77561929DA6EF50022DC3E /* UIButton.swift in Sources */,
 			);

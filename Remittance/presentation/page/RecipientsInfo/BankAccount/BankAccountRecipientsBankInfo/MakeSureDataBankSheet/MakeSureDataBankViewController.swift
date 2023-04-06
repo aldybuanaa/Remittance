@@ -14,6 +14,7 @@ class MakeSureDataBankViewController: UIViewController {
     @IBOutlet weak var theIncorrectDataLabel: UILabel!
     
     @IBOutlet weak var nextButtonMakeSure: UIButton!
+    var onClick : (() -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,19 +36,14 @@ class MakeSureDataBankViewController: UIViewController {
         self.dismiss(animated: true)
     }
     
+    
     @IBAction func nextButtonMakeSureTapped(_ sender: Any) {
-        let nib = BankAccountRecipientsInfoDetailViewController(nibName: "BankAccountRecipientsInfoDetail", bundle: nil)
         
-        self.navigationController?.pushViewController(nib, animated: true)
-        
-        
-//        let nib = DataConfirmationViewController(nibName: "DataConfirmation", bundle: nil)
-//        nib.modalPresentationStyle = .overFullScreen
-//        let bottomSheetController = BottomSheetController(contentViewController: nib)
-
-
-//        present(nib, animated: true)
-        print("Navigate Please")
+        self.dismiss(animated: false) {
+            let nib = BankAccountRecipientsInfoDetailViewController(nibName: "BankAccountRecipientsInfoDetail", bundle: nil)
+            
+            self.navigationController?.pushViewController(nib, animated: true)
+        }
     }
 
 }

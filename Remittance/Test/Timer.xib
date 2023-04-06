@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimerViewController" customModule="Remittance" customModuleProvider="target">
+            <connections>
+                <outlet property="countDownLabel" destination="Pz3-hd-caz" id="3mX-Ql-qgr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pz3-hd-caz">
+                    <rect key="frame" x="191.33333333333334" y="416" width="10.333333333333343" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXn-Td-PvV">
+                    <rect key="frame" x="165.66666666666666" y="486.33333333333331" width="62" height="34.999999999999943"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                    <connections>
+                        <action selector="startTapped:" destination="-1" eventType="touchUpInside" id="aMO-1p-yqH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBY-SW-huv">
+                    <rect key="frame" x="143.66666666666666" y="621.33333333333337" width="106" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Halaman B"/>
+                    <connections>
+                        <action selector="halamanBTapped:" destination="-1" eventType="touchUpInside" id="aWO-Fi-0Rz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="UBY-SW-huv" firstAttribute="top" secondItem="KXn-Td-PvV" secondAttribute="bottom" constant="100" id="1Jw-OT-Xfe"/>
+                <constraint firstItem="Pz3-hd-caz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3Db-hA-hQM"/>
+                <constraint firstItem="Pz3-hd-caz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="4bE-XG-H05"/>
+                <constraint firstItem="KXn-Td-PvV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JPZ-3z-Xwb"/>
+                <constraint firstItem="KXn-Td-PvV" firstAttribute="top" secondItem="Pz3-hd-caz" secondAttribute="bottom" constant="50" id="SIM-gh-xBK"/>
+                <constraint firstItem="UBY-SW-huv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fHW-Os-Cfk"/>
+            </constraints>
+            <point key="canvasLocation" x="65" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
